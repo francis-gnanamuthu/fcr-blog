@@ -1,13 +1,16 @@
 module.exports = {
-    title: 'Francis Blog',
-    description: 'Francis Blog',
+    title: 'Francis Gnanamuthu Blog',
+    description: 'Francis Gnanamuthu Blog',
+    head: [
+        ['link', { rel: 'icon', href: '/icons/favicon.png' }]
+      ],
     themeConfig:{
         lastUpdated: 'Last Updated',
-        logo: '/icons/logo.png',
+        logo: '/icons/logo.jpg',
         nav:[
             {text: 'Home', link: '/'},
-            {text: 'Blog', link:'/blog/'},
-            {text: 'contact', link: 'https://twitter.com/Franciscecil'}
+            {text: 'Archived posts', link:'/posts/'},
+            {text: 'About Me', link: 'aboutme'}
         ]
     }
 }

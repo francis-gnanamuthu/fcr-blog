@@ -1,6 +1,19 @@
-.site-name
-    color: #764abc;
+// .site-name.can-hide
+//     color: #764abc;
+
+//$accentColor = #f54242
+$textColor = #2c3e50
+$borderColor = #e9edf3
+$codeBgColor = #282c34
+
 .navbar
-    color: #764abc;
-.site-name.can-hide
-    color: #764abc;
+  .logo
+    height 46px
+    width: 200px
+    vertical-align top
+
+.nav-link.router-link-exact-active.router-link-active
+    border-bottom 2px solid lighten(#f54242, 8%)
+
+.nav-item > a:not(.external).router-link-active 
+    border-bottom 2px solid lighten(#f54242, 8%)
